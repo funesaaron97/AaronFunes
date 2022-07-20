@@ -21,7 +21,7 @@ class Code extends React.Component {
                     <body>
                         <div class="codestuff columns">
                             <div class ="wslink column1">
-                                <a href="https://github.com/funesaaron97/Aaron-Funes-Website"><img src={websitepic} width="400" height="400"/></a>
+                                <a href="https://github.com/funesaaron97/AaronFunes"><img src={websitepic} width="400" height="400"/></a>
                             </div>
                             <div class="column2">
                                 <h1>Portfolio Website</h1>
