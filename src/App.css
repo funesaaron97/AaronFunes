@@ -1,0 +1,403 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* This section is dedicated to the Menu Component*/
+
+nav{
+  background-color: rgb(240, 240, 237);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.tab {
+  border: none;
+  width: 100%;
+  min-height: 2vh;
+  display:flex;
+  overflow: hidden;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(240, 240, 237);
+}
+
+
+.tab button {
+  border: none white;
+  font-weight: bolder;
+  background-color: rgb(240, 240, 237);
+  float: none;
+  border: 100;
+  cursor: pointer;
+  padding: 25px 25px;
+  min-height: 2vh;
+  transition: 0.4s;
+}
+
+.tab a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  padding: inherit;
+  margin: 0;
+}
+
+.tab button:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.tab button.active {
+  background-color: none;
+}
+
+/* This section is dedicated to the Media Component*/
+
+.social-container{
+  text-align: center;
+  background-color:rgb(122, 160, 177);
+  padding: 30px 60px;
+  display: block;
+}
+
+.connect{
+  font-size: 28px;
+  color: rgb(240, 240, 237);
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-right: 27%;
+  text-align: center;
+}
+
+
+
+a.social{
+  margin: 10% 2rem;
+  position: relative;
+  bottom: 1rem;
+  font-size:  90%;
+}
+
+a.linkedin{
+  color: rgb(240, 240, 237);
+}
+
+a.git{
+  color:rgb(240, 240, 237);
+}
+
+a.fb{
+  color: rgb(240, 240, 237);
+}
+
+a.spotify{
+  color: rgb(240, 240, 237);
+}
+
+
+a.linkedin:hover{
+  color: rgb(0, 119, 181);
+}
+
+a.git:hover{
+  color: #171515;
+}
+
+a.fb:hover{
+  color: #4267B2;
+}
+
+a.spotify:hover{
+  color: #1DB954;
+}
+
+.reactplug{
+  padding-top: 2%;
+}
+
+/* This section is dedicated to the Home Component*/
+
+.home-div {
+  overflow-x: hidden;
+}
+
+.home-header {
+  min-height: 33vh;
+  width: 100%;
+  background-image:linear-gradient(rgba(122, 160, 177, 0.8), rgba(196, 168, 153, 0.8)), url(pictures/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.home-header h1{
+  text-align: center;
+  padding-top: 12vh;
+  letter-spacing: 10px;
+  overflow: hidden;
+  animation: fadein 1s forwards;
+}
+
+.text1{
+  overflow: hidden;
+  font-size: 60px;
+  color:rgb(240, 240, 237);
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.text1 h1{
+  background-color: maroon;
+}
+
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  80%{
+    opacity: 1;
+  }
+}
+
+.home-content{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 100px 100px;
+  width: 100%;
+  background-color: rgb(240, 240, 237);
+  min-height: 80vh;
+}
+
+
+.home-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin-top: -25vh;
+  animation: fadein 1s;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+
+.home-slider{
+  padding-left: 30px;
+  height: 50px
+}
+
+.home-slider div{
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 0px 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.home-slider1{
+  background-color: rgb(122, 160, 177);
+  color: rgb(240, 240, 237);
+  animation: slide 10s linear infinite;
+  
+}
+
+.home-slider2{
+  background-color: rgb(196, 168, 153) ;
+  color: rgb(240, 240, 237);
+}
+
+.home-slider3{
+  background-color: #8A865D ;
+  color: rgb(240, 240, 237);
+}
+
+.home-slider4{
+  background-color: #932500;
+  color: rgb(240, 240, 237);
+}
+
+@keyframes slide{
+  0%{margin-top: -400px;}
+  15%{margin-top: -300px;}
+  25%{margin-top: -300px;}
+  35%{margin-top: -200px;}
+  45%{margin-top: -200px;}
+  55%{margin-top: -100px;}
+  65%{margin-top: -100px;}
+  75%{margin-top: -0px;}
+  100%{margin-top: -0px;}
+}
+
+.resume{
+  align-content:center ;
+  text-align: center;
+  padding-top: 20vh;
+  animation: fadeindel 2s;
+}
+
+.resume a{
+  padding: 25px 25px ;
+  background-color:maroon ;
+  border-style: solid;
+  border-radius: 5px;
+  display: inline-block;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+  color: rgb(240, 240, 237);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.resume a:hover{
+  background-color: rgb(122, 160, 177);
+  transition: 1s;
+}
+
+/* This section is dedicated to the About Component*/
+
+.about-header {
+  background-color: white;
+  min-height: 33vh;
+  width: 100%;
+  background-image:linear-gradient(rgba(122, 160, 177, .8), rgba(196, 168, 153, 0.875)), url(pictures/prism-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: URW Chancery L, cursive;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10vh;
+  animation: fadein 1s;
+  text-transform: uppercase;
+}
+
+.title span{
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  color: rgb(240, 240, 237);
+}
+
+.box{
+  animation: fadeindel 2s;
+  color:rgb(240, 240, 237);
+  background-color: rgb(128, 0, 0);
+  padding-top: 4%;
+  margin-top: 4%;
+  margin-left: -8%;
+  margin-right:-8%;
+}
+
+
+.container{
+  min-height: 80vh;
+  background-color: rgb(240, 240, 237);
+  padding: 10%;
+  margin:0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+.columns{
+  font-family: URW Chancery L, cursive;
+  animation: fadeindel 2s;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5%;
+}
+
+.column2{
+  overflow-x: hidden;
+  width: 40%;
+}
+
+.column1{
+  padding-left: 10%;
+}
+
+.column1 img{
+  border:  solid rgba(122, 160, 177, .8);
+}
+
+.column2 p{
+  padding-top: 4%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 4%;
+}
+
+.column2 h1{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  text-align: center;
+  padding-bottom: 2%;
+  border-bottom: solid maroon;
+}
+
+
+@keyframes fadeindel {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  90%{
+    opacity: 1;
+  }
+}
+
+
+/* This section is dedicated to the Code Component*/
+
+.code-header {
+  min-height: 33vh;
+  width: 100%;
+  background-image:linear-gradient(rgba(122, 160, 177, .9), rgba(196, 168, 153, 0.875)), url(pictures/codewallpaper.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.codestuff{
+  margin:2% 0;
+}
+
+.wslink img{
+  border: 400px red;
+}
+
+.tttlink img{
+  border: line maroon;
+}
+/* This section is dedicated to the Music Component*/
+
+.music-header {
+  background-color: white;
+  min-height: 33vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(122, 160, 177, .9), rgba(196, 168, 153, 0.875)),url(pictures/musicbackground.jpg);
+  background-size: cover;
+}
+
+
+.music-container{
+  padding: 100px 100px;
+  background-color: rgb(240, 240, 237);
+}
+
+.contact-header {
+  background-color: white;
+  min-height: 100vh;
+  width: 100%;
+  background-image:linear-gradient(rgb(122, 160, 177, .7), rgba(196, 168, 153, .85)), url(pictures/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
