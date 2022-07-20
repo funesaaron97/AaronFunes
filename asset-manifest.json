@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/AaronFunes/static/css/main.01cc80e8.css",
+    "main.js": "/AaronFunes/static/js/main.d2dfb634.js",
+    "static/js/787.e0c2bbcf.chunk.js": "/AaronFunes/static/js/787.e0c2bbcf.chunk.js",
+    "static/media/contact.jpg": "/AaronFunes/static/media/contact.60ef19bdb1a51d09f13a.jpg",
+    "static/media/musicbackground.jpg": "/AaronFunes/static/media/musicbackground.cea954d0ad37eb935023.jpg",
+    "static/media/ilay.jpg": "/AaronFunes/static/media/ilay.ff756ae5a1e9d890c3ed.jpg",
+    "static/media/websitepic.PNG": "/AaronFunes/static/media/websitepic.8f8591090ec48babec8e.PNG",
+    "static/media/portrait.jpg": "/AaronFunes/static/media/portrait.a7ee650fea0cff6501a7.jpg",
+    "static/media/codewallpaper.png": "/AaronFunes/static/media/codewallpaper.87561e4a250060d3ec7e.png",
+    "static/media/prism-scaled.jpg": "/AaronFunes/static/media/prism-scaled.e7d3e9a48558dd136292.jpg",
+    "static/media/resume.pdf": "/AaronFunes/static/media/resume.5bac823620d8946654f1.pdf",
+    "static/media/tictactoe.PNG": "/AaronFunes/static/media/tictactoe.1d3e5830d4f8a4d3498d.PNG",
+    "index.html": "/AaronFunes/index.html",
+    "main.01cc80e8.css.map": "/AaronFunes/static/css/main.01cc80e8.css.map",
+    "main.d2dfb634.js.map": "/AaronFunes/static/js/main.d2dfb634.js.map",
+    "787.e0c2bbcf.chunk.js.map": "/AaronFunes/static/js/787.e0c2bbcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01cc80e8.css",
+    "static/js/main.d2dfb634.js"
+  ]
+}
