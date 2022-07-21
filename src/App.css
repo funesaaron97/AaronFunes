@@ -17,44 +17,33 @@ nav{
 
 
 .tab {
-  border: none;
-  width: 100%;
-  min-height: 2vh;
   display:flex;
   overflow: hidden;
   justify-content: space-around;
   align-items: center;
   background-color: rgb(240, 240, 237);
+  min-height: 8vh;
 }
 
-
-.tab button {
-  border: none white;
-  font-weight: bolder;
-  background-color: rgb(240, 240, 237);
-  float: none;
-  border: 100;
-  cursor: pointer;
-  padding: 25px 25px;
-  min-height: 2vh;
-  transition: 0.4s;
-}
-
-.tab a {
-  font-size: 16px;
-  color: black;
+.tab a{
   text-decoration: none;
-  padding: inherit;
-  margin: 0;
 }
 
-.tab button:hover {
+.navbutton {
+  background-color: rgb(240, 240, 237);
+  font-weight: bold;
+  font: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 8vh 30px;
+}
+
+
+
+.navbutton:hover {
   background-color: rgb(225, 225, 225);
 }
 
-.tab button.active {
-  background-color: none;
-}
 
 /* This section is dedicated to the Media Component*/
 

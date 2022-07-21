@@ -14,10 +14,10 @@ function App() {
     <div>
       <Menu/>
       <Switch>
-        <Route path= "/" exact component={Home}/>
-        <Route path= "/about" component={About}/>
-        <Route path= "/code" component={Code}/>
-        <Route path= "/music" component={Music}/>
+        <Route path= "/AaronFunes" exact component={Home}/>
+        <Route path= "/AaronFunes/about" component={About}/>
+        <Route path= "/AaronFunes/code" component={Code}/>
+        <Route path= "/AaronFunes/music" component={Music}/>
       </Switch>
     </div>
     <div>

@@ -7,17 +7,17 @@ class Menu extends React.Component{
         return(
             <div class = "tab">
                 <nav>
-                    <Link to='/'>
-                        <button><a>HOME</a></button>
+                    <Link to='/AaronFunes'>
+                        <a class="navbutton">HOME</a>
                     </Link>
-                    <Link to='/about'>
-                        <button><a>ABOUT ME</a></button>
+                    <Link to='/AaronFunes/about'>
+                        <a class="navbutton">ABOUT ME</a>
                     </Link>
-                    <Link to='/code'>
-                        <button><a>CODE</a></button>
+                    <Link to='/AaronFunes/code'>
+                        <a class="navbutton">CODE</a>
                     </Link>
-                    <Link to='/music'>
-                        <button><a>MUSIC</a></button>
+                    <Link to='/AaronFunes/music'>
+                        <a class="navbutton">MUSIC</a>
                     </Link>
                 </nav>
             </div>
