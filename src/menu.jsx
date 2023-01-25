@@ -7,7 +7,7 @@ class Menu extends React.Component{
         return(
             <div class = "tab">
                 <nav>
-                    <Link to='/AaronFunes'>
+                    <Link to='/'>
                         <a class="navbutton">HOME</a>
                     </Link>
                     <Link to='/AaronFunes/about'>
